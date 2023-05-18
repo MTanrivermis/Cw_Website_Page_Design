@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  height: 100vh;
+}
+
+/* ********* NAVBAR **********/
+
+.navbar {
+  background-color: #35424a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+}
+.nav-logo {
+  padding: 20px;
+}
+
+.navbar .nav-logo a {
+  font-size: 30px;
+}
+
+.nav-list {
+  margin-right: 20px;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.navbar a {
+  color: white;
+  font-size: 20px;
+}
+
+li a.active:hover {
+  color: white;
+}
+
+li a.active {
+  color: #a9508b;
+}
+
+/* ********* MAIN **********/
+
+.banner {
+  background-image: url(./img/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.banner-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-size: 30px;
+}
+
+#banner.typewrite {
+  display: block;
+}
+
+/* ********* MAIN BANNER NAV **********/
+
+.banner-navbar {
+  background-color: #35424a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.banner-logo {
+  padding: 20px;
+}
+
+.banner-logo a {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.banner-logo a:hover {
+  color: #e8491d;
+}
+
+.banner-list {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.banner-list .banner-item {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+}
+
+input::placeholder {
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+button {
+  background-color: #e8491d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #e8491d;
+  font-weight: bold;
+}
+
+/* ********* PORTFOLIO **********/
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio-card {
+  margin: 50px;
+}
+
+.portfolio-card h4:hover {
+  color: #e8491d;
+  cursor: pointer;
+}
+
+.portfolio-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.portfolio-title {
+  margin: 20px;
+}
+
+/* ********* ABOUT PORTFOLIO **********/
+
+.about-portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  margin-bottom: 322px;
+  gap: 250px;
+}
+
+.about-info,
+.about-dark,
+.about-light {
+  letter-spacing: 2px;
+}
+
+.about-dark {
+  background-color: #35424a;
+  margin-top: 50px;
+  padding: 10px;
+  color: white;
+}
+
+.about-info {
+  background-color: #35424a;
+  height: 200px;
+  padding: 10px;
+  color: white;
+}
+
+.about-profile-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* ********* SERVICES **********/
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.services-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.services-card {
+  background-color: #e6e6e6;
+  padding: 30px 10px;
+  margin-bottom: 10px;
+}
+
+.services-card h3,
+p {
+  margin: 10px;
+}
+
+.services-form {
+  background-color: #35424a;
+  height: 300px;
+  width: 470px;
+  padding: 10px;
+  color: white;
+}
+
+.services-form input,
+textarea {
+  width: 450px;
+}
+
+.services textarea::placeholder {
+  color: black;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+  font-weight: bold;
+  background-color: #e8491d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #e8491d;
+}
+
+/* ********* FOOTER **********/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #35424a;
+  padding: 50px;
+  bottom: 0px;
+}
+
+.footer-cont h4 {
+  color: white;
+  letter-spacing: 5px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+/* ********* ABOUT FOOTER **********/
+
+.about-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #35424a;
+  padding: 50px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.about-footer-cont h4 {
+  color: white;
+  letter-spacing: 5px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+/* ********* SERVICES FOOTER **********/
+
+.services-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #35424a;
+  padding: 50px;
+  bottom: 0px;
+}
+
+.services-footer-cont h4 {
+  color: white;
+  letter-spacing: 5px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+/* ********* WHATSAPP ICON **********/
+
+.wp {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2.4rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: #a9508b;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 0.16rem;
+}
+
+.wp a {
+  color: white;
+}
+
+.wp:hover {
+  cursor: pointer;
+  outline: 2px solid rgb(9, 214, 9);
+  outline-offset: 3px;
+  color: black;
+}
