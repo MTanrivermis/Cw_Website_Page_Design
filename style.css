@@ -26,9 +26,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
   font-size: 20px;
-  position: fixed;
-  width: 100%;
 }
+
 .nav-logo {
   padding: 20px;
 }
@@ -292,9 +291,6 @@ textarea {
   text-align: center;
   background-color: #35424a;
   padding: 50px;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
 }
 
 .about-footer-cont h4 {
@@ -324,7 +320,7 @@ textarea {
 
 /* ********* WHATSAPP ICON **********/
 
-.wp {
+/* .wp {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
@@ -347,4 +343,4 @@ textarea {
   outline: 2px solid rgb(9, 214, 9);
   outline-offset: 3px;
   color: black;
-}
+} */
